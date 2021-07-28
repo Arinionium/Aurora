@@ -7,46 +7,125 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/iconsfont.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconsfont.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
     <title>Aurora</title>
 </head>
 <body>
-   
+    <!------------------------top-bar  ---------------------------->
+    <div class="header__top-bar">
+        <div class="header__top-bar-balance">
+            <span></span>
+        </div>
+        <div class="header__top-bar_text">
+            <span>We deliver Worldwide</span>
+        </div>
+        <div class="header__top-bar_icon-location icon-location">
+            <span>Our stores</span>
+        </div>
+    </div><!------------------------top-bar  /---------------------------->
+    <!------------------------main-part  ---------------------------->
     <main class="main-part">
-        <header class="header">
-            <div class="top-bar">
-                <span></span>
-                <span></span>
-            </div>
+        <header class="main-part__header header">
             <div class="header__lower-part">
-                <p class="header__logo"></p>
-                <div class="header__middle-part">
-
+                <p class="header__logo">Aurora</p>
+                <div class="header__center">
+                    <div class="header__input-wrapper">
+                        <p class="header__search-icon"><img src="/images/icons/Fill 1.svg" alt=""></p>
+                        <input placeholder="What are you looking for?" type="search" class="header__input" id="search">
+                    </div>
+                    <nav class="header__navbar navbar">
+                        <li class="header__navbar-link navbar-link"><a href="">what’s new</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">women</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">accessories</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">kids</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">beauty</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">outlet</a></li>
+                        <li class="header__navbar-link navbar-link"><a href="">stories</a></li>
+                    </nav>
                 </div>
                 <div class="header__sign-block">
-                    <span class="header__sign-in"></span>
-                    <span class="header__register"></span>
-                    <span class="header__basket"></span>
+                    <span class="header__sign-in"><a href="#">Sign in</a></span>
+                    <span>|</span>
+                    <span class="header__register"><a href="">Register</a></span>
+                    <a href="#" class="header__basket"><img src="/images/icons/basket copy.svg" alt=""></a>
+                    <i class=" "></i>
                 </div>
             </div>
         </header>
         <div class="main-part__title-block">
-
+            <p class="main-part__title">Hello! Welcome to Aurora</p>
         </div>
-    </main>
+    </main><!------------------------main-part / ---------------------------->
+
+    <!------------------------registration-block  ---------------------------->
     <div class="registration-block">
         <div class="registration-block__text">
-
+            <p>New arrivals. Exclusive previews.
+                 First access to sales.
+                  Sign up to stay in the know.
+                </p>
         </div>
         <div class="registration-block__input-wrap">
-            <input type="email" name="" id="">
-            <a href=""></a>
+            <input class="registration-block__email-field email-field" type="email" name="" id="" placeholder="Your email address">
+            <button class="registration-block__btn btn">register</button>
         </div>
+    </div><!------------------------registration-block  /---------------------------->
+    
 
-    </div>
+    <!------------------------footer  ---------------------------->
     <footer class="footer">
-
-    </footer>
+        <div class="footer__top-part">
+            <div class="footer__top-part_column">
+                <h3 class="footer__column-heading">About Us</h3>
+                <ul>
+                    <li class="footer__column-item"><a href="#">Who we are</a></li>
+                    <li class="footer__column-item"><a href="#">Our stores</a></li>
+                    <li class="footer__column-item"><a href="#">Customer Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer__top-part_column">
+                <h3 class="footer__column-heading">Categories</h3>
+                <ul>
+                    <li class="footer__column-item"><a href="#">Women fashion</a></li>
+                    <li class="footer__column-item"><a href="#">Accessories</a></li>
+                    <li class="footer__column-item"><a href="#">Kids</a></li>
+                </ul>
+            </div>
+            <div class="footer__top-part_column">
+                <h3 class="footer__column-heading">Help</h3>
+                <ul>
+                    <li class="footer__column-item"><a href="#">Customer service</a></li>
+                    <li class="footer__column-item"><a href="#">Size guide</a></li>
+                    <li class="footer__column-item"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer__top-part_column">
+                <h3 class="footer__column-heading">Payments & Delivery</h3>
+                <ul>
+                    <li class="footer__column-item"><a href="#">Purchase terms</a></li>
+                    <li class="footer__column-item"><a href="#">Guarantee</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer__top-part_column">
+                <h3 class="footer__column-heading">Social</h3>
+                <ul class="footer__column-social">
+                    <li class="footer__column-item social-column-item"><a class="footer__icon icon-insta" href="#"></a></li>
+                    <li class="footer__column-item"><a class="footer__icon icon-twitter" href="#"></a></li>
+                    <li class="footer__column-item"><a class="footer__icon icon-snapchat" href="#"></a></li>
+                    <li class="footer__column-item"><a class="footer__icon icon-facebook" href="#"></a></li>
+                    <li class="footer__column-item"><a class="footer__icon icon-youtube" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__lower-part">
+            <span>© Copyright, Aurora 2020. All Rights reserved.</span>
+        </div>
+    </footer><!------------------------footer  /---------------------------->
 
 
 
