@@ -1,0 +1,83 @@
+// -------------- burger ------------------
+
+.header__burger-btn-wrap {
+  display: none;
+  flex-basis: 7rem;
+  margin-left: 1.6rem;
+
+  @media (max-width: 900px) {
+    display: flex;
+  }
+
+  .header__burger {
+    display: block;
+    margin-top: 2.2rem;
+    width: 2rem;
+    height: 1.5rem;
+    background: none;
+    margin-right: 1.7rem;
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.3);
+      border-radius: 3px;
+    }
+
+    span {
+      display: block;
+      width: 20px;
+      height: 3px;
+      margin-bottom: 3px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: $white;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .burger__search-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: 2rem;
+    background: url(/images/icons/search.svg);
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.3);
+      border-radius: 3px;
+    }
+  }
+}
+
+.header__burger-menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  min-width: 100%;
+  overflow: scroll;
+  background-color: $white;
+  h3 {
+    display: flex;
+    justify-content: center;
+    img {
+      display: block;
+    }
+  }
+}
+
+//active for jQuery------------
+
+.header.active .header__burger span {
+  background-color: $black;
+}
+
+.header__burger.active span:nth-child(3) {
+  transform: translateY(-0.6rem) rotate(-45deg);
+}
+
+.header__burger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.header__burger.active span:nth-child(1) {
+  transform: translateY(0.6rem) rotate(45deg);
+}
