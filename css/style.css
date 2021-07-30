@@ -513,7 +513,7 @@ input[type="search"]::-webkit-search-results-decoration {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: 700;
-  font-size: calc( 34px + 26 * ((100vw - 320px) / 1120));
+  font-size: calc( 34px + 26 * ((100vw - 320px) / 1120));
   line-height: 90px;
   color: #ffffff;
 }

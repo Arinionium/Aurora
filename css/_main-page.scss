@@ -116,7 +116,7 @@
       background-color: rgba(128, 128, 128, 0.3);
       border-radius: 3px;
     }
-    & img {
+    img {
       display: block;
       margin: 0.5rem auto;
     }
@@ -174,11 +174,11 @@ input[type="search"]::-webkit-search-results-decoration {
     transition: 0.2s;
     margin: 0 0.75rem;
 
-    & a {
+    a {
       //margin-top: -6px;
       padding: 16px 0 13px 0;
     }
-    & .chevron {
+    .chevron {
       display: none;
       @media (max-width: 900px) {
         display: block;
@@ -203,7 +203,7 @@ input[type="search"]::-webkit-search-results-decoration {
   .navbar-link {
     list-style: none;
   }
-  & a {
+  a {
     color: $white;
   }
 }
@@ -224,7 +224,7 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-top: 1.6rem;
   }
 
-  & a {
+  a {
     color: $white;
     font-weight: 600;
     font-size: 11px;
@@ -236,7 +236,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
   }
 
-  & span {
+  span {
     display: block;
     margin-right: 0.4rem;
     transition: 0.2s;
@@ -253,7 +253,7 @@ input[type="search"]::-webkit-search-results-decoration {
       margin-right: 0.9rem;
     }
 
-    & img {
+    img {
       width: 1.6rem;
       height: 2.4rem;
     }
@@ -390,7 +390,7 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-bottom: 1.7rem;
     display: block;
   }
-  & a {
+  a {
     color: $black;
     &:hover {
       text-decoration: underline;
@@ -409,7 +409,7 @@ input[type="search"]::-webkit-search-results-decoration {
     max-width: 100%;
     margin-right: 0;
   }
-  & ul {
+  ul {
     transition: all 0.2s;
     white-space: nowrap;
 
@@ -467,7 +467,7 @@ input[type="search"]::-webkit-search-results-decoration {
   justify-content: space-between;
   transition: all 0.2s;
 
-  & img {
+  img {
     display: none;
     padding-right: 1.6rem;
     @media (max-width: 768px) {
@@ -509,14 +509,14 @@ input[type="search"]::-webkit-search-results-decoration {
 .footer__column-social {
   display: flex;
   align-items: flex-start;
-  & .footer__column-item {
+  .footer__column-item {
     margin-top: 4.5px;
   }
-  & .footer__icon {
+  .footer__icon {
     margin-top: 0;
   }
 
-  & li {
+  li {
     margin-right: 1.6rem;
 
     &:last-child {
