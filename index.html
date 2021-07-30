@@ -27,6 +27,7 @@
         </div>
     </div><!------------------------top-bar  /---------------------------->
     <!------------------------main-part  ---------------------------->
+    
     <main class="main-part">
         <header id="header" class="main-part__header header">
             <div class="header__lower-part">
@@ -44,10 +45,20 @@
                     <h3 class="burger-logo">
                         <img src="/images/icons/Aurora.jpg" alt="">
                     </h3>
+                    <div class="burger__inner-wrap">
+                        <div class="burger__gatherer">
+                        </div>
+                        <div class="burger__sign-block">
+
+                        </div>
+                    </div>
+                    
                 </div>
-               
+                <div class="gray-block">
+                </div>
                 
                 <p class="header__logo">Aurora</p>
+               
                 <div class="header__center">
                     <div class="header__input-wrapper">
                         <p class="header__search-icon">
@@ -57,7 +68,7 @@
                          type="search" class="header__input" id="header__input">
                     </div>
                     <nav 
-                    data-da=".header__burger-menu,900,1" 
+                    data-da=".burger__gatherer,900,0" 
                     class="header__navbar navbar">
                         <li class="header__navbar-link navbar-link">
                             <a href="">what’s new</a>
@@ -90,18 +101,18 @@
                 </div>
                 <div class="header__sign-block" id="header__sign-block">
                     <span 
-                    data-da=".header__burger-menu,900,2"
+                    data-da=".burger__sign-block,900,3"
                      class="header__sign-in">
                         <a class="sign-block-link  block-link-1"" href="#">Sign in</a>
                     </span>
                     <span 
-                    data-da=".header__burger-menu,900,3"
+                    data-da=".burger__sign-block,900,3"
                      class="block-link-2"
                      id="sign-block-link">|</span>
                     <span 
-                    data-da=".header__burger-menu,900,4"
+                    data-da=".burger__sign-block,900,2"
                      class="header__register">
-                        <a class="sign-block-link block-link-3"  href="#">Register</a>
+                        <a class="sign-block-link block-link-4"  href="#">Register</a>
                     </span>
                     <a href="#" class="header__basket">
                         <img id="header__basket" src="/images/icons/basket-copy.svg" alt="">
