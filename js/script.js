@@ -4,16 +4,16 @@ $(function () {
 $( "#header__input" ).on("focus", function() {
   $("#top-bar, .main-part, #header, #header__link, #header__input, .navbar-link, #header__input").addClass("active");
   $(".sign-block-link").css("color", "#000000");
-  $("#header__basket").attr("src", "/images/icons/basket-copy-black.svg");
-   $("#header__search-icon").attr("src","/images/icons/Fill_1_black.svg");
+  $("#header__basket").attr("src", "images/icons/basket-copy-black.svg");
+   $("#header__search-icon").attr("src","images/icons/Fill_1_black.svg");
   
 });
   
   $("#header").on("scroll", function () {
     $("#top-bar, .main-part, #header, #header__link, #header__input, .navbar-link, #header__input").removeClass("active");
     $(".sign-block-link").css("color", "#ffffff");
-    $("#header__basket").attr("src", "/images/icons/basket-copy.svg");
-    $("#header__search-icon").attr("src", "/images/icons/Fill 1.svg");
+    $("#header__basket").attr("src", "images/icons/basket-copy.svg");
+    $("#header__search-icon").attr("src", "images/icons/Fill_1.svg");
   });
 
   const burgerBtn = $('.header__burger');
@@ -54,17 +54,17 @@ $(".block-link-1").click(function(){
           topBar.addClass('fixed');
            $("#top-bar, .main-part, #header, #header__link, #header__input, .navbar-link, #header__input").addClass("active");
           $(".sign-block-link").css("color", "#000000");
-          $("#header__basket").attr("src", "/images/icons/basket-copy-black.svg");
-          $("#header__search-icon").attr("src", "/images/icons/Fill_1_black.svg");
-           $(".burger__search-icon").css("background","url(/images/icons/search-black.svg)");
+          $("#header__basket").attr("src", "images/icons/basket-copy-black.svg");
+          $("#header__search-icon").attr("src", "images/icons/Fill_1_black.svg");
+           $(".burger__search-icon").css("background","url(images/icons/search-black.svg)");
         } else {
           header.removeClass('fixed');
           topBar.removeClass('fixed');
           $("#top-bar, .main-part, #header, #header__link, #header__input, .navbar-link, #header__input").removeClass("active");
           $(".sign-block-link").css("color", "#ffffff");
-          $("#header__basket").attr("src", "/images/icons/basket-copy.svg");
-          $("#header__search-icon").attr("src", "/images/icons/Fill 1.svg");
-          $(".burger__search-icon").css("background","url(/images/icons/search.svg)");
+          $("#header__basket").attr("src", "images/icons/basket-copy.svg");
+          $("#header__search-icon").attr("src", "images/icons/Fill_1.svg");
+          $(".burger__search-icon").css("background","url(images/icons/search.svg)");
         }
     });
   
