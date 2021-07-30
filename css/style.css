@@ -110,7 +110,7 @@ h6 {
 
 .main-part {
   height: calc(100vh - 2.4rem);
-  background: url(/images/slider/slider-img1.jpg) no-repeat;
+  background: url(../images/slider/slider-img1.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   display: -webkit-box;
@@ -126,7 +126,7 @@ h6 {
 @media (max-width: 992px) {
   .main-part {
     height: 100vh;
-    background: url(/images/slider/slider-img1.jpg) center no-repeat;
+    background: url(../images/slider/slider-img1.jpg) center no-repeat;
   }
 }
 
@@ -916,7 +916,7 @@ input[type="search"]::-webkit-search-results-decoration {
   margin-top: 2rem;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  background: url(/images/icons/search.svg) center no-repeat;
+  background: url(../images/icons/search.svg) center no-repeat;
 }
 
 .header__burger-btn-wrap .burger__search-icon:hover {

@@ -1,6 +1,6 @@
 .main-part {
   height: calc(100vh - 2.4rem);
-  background: url(/images/slider/slider-img1.jpg) no-repeat;
+  background: url(../images/slider/slider-img1.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -8,7 +8,7 @@
   position: relative;
   @media (max-width: 992px) {
     height: 100vh;
-    background: url(/images/slider/slider-img1.jpg) center no-repeat;
+    background: url(../images/slider/slider-img1.jpg) center no-repeat;
   }
 }
 
