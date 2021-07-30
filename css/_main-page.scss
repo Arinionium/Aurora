@@ -1,6 +1,7 @@
 .main-part {
   height: calc(100vh - 2.4rem);
   background: url(../images/slider/slider-img1.jpg) no-repeat;
+  animation: 11s fadeIn infinite;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -9,6 +10,17 @@
   @media (max-width: 992px) {
     height: 100vh;
     background: url(../images/slider/slider-img1.jpg) center no-repeat;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    background: url(../images/slider/slider-img1.jpg) no-repeat;
+    background-size: cover;
+  }
+  to {
+    background: url(../images/slider/slider-img2.jpg) no-repeat;
+    background-size: cover;
   }
 }
 

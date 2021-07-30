@@ -111,6 +111,8 @@ h6 {
 .main-part {
   height: calc(100vh - 2.4rem);
   background: url(../images/slider/slider-img1.jpg) no-repeat;
+  -webkit-animation: 11s fadeIn infinite;
+          animation: 11s fadeIn infinite;
   width: 100%;
   background-size: cover;
   display: -webkit-box;
@@ -127,6 +129,28 @@ h6 {
   .main-part {
     height: 100vh;
     background: url(../images/slider/slider-img1.jpg) center no-repeat;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    background: url(../images/slider/slider-img1.jpg) no-repeat;
+    background-size: cover;
+  }
+  to {
+    background: url(../images/slider/slider-img2.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    background: url(../images/slider/slider-img1.jpg) no-repeat;
+    background-size: cover;
+  }
+  to {
+    background: url(../images/slider/slider-img2.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
