@@ -980,12 +980,14 @@ input[type="search"]::-webkit-search-results-decoration {
 .burger__inner-wrap {
   display: block;
   width: calc(100% - 4rem);
+  padding-bottom: 11.1rem;
 }
 
 .burger__inner-wrap .burger__sign-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 7.9rem;
   padding-left: 1.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
